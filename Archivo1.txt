@@ -1,0 +1,38 @@
+1)	El comando mv mueve o renombra archivos o directorios, en cambio el comando cp copia archivos o directorios.
+
+2)	El comando rmdir remueve, es decir elimina, directorios, siempre y cuando este vacío. El comando rm remueve o elimina archivos 
+o directorios, si se escribe el modificador -r elimina de forma recursiva, dando la posibilidad de borrar un directorio y su 
+contenido.
+
+3)	La opción -R significa recursivo, quiere decir que en el comando cp lo que haría es copiar un directorio con todo su contenido.
+
+4)	El comando touch tiene la función de modificar la fecha de modificación de un archivo, y en caso de que se incluya como 
+parámetro un archivo que no existe lo crea pero vacío. El comando > escribe la salida de un comando o programa a un archivo y en 
+caso de que no exista lo crea escribiendo el contenido de la salida. Si se utiliza >> la salida del comando o programa añade al 
+final del contenido del archivo sino el comando > pisa el contenido del archivo.
+
+5)	Cd Mkdir Analista
+cd Analista
+mkdir Programación_II Matemática Sistemas_Operativos
+cd Sistemas_Operativos
+mkdir Alumnos
+cd Alumnos
+mkdir Notas
+
+6)	Echo “Juan Rodrigo” > juan.txt
+Mv juan.txt /home/Analista/Sistemas_Operativos/Alumnos
+
+7)	Cd /etc
+sudo cp motd /home/Analista/Matemática
+
+8)	Cd /home/Analista
+rm -r Sistemas_Operativos
+
+9)	Cd /home/Analista/Sistemas_Operativos/Alumnos
+mv Notas Notas_Viejas
+
+10)	Cd /home/Analista/Sistemas Operativos/Alumnos
+touch Mis_Alumnos
+
+11)	Cd /
+Ls -l –r > /home/Analista/Sistemas Operativos/Alumnos/Mis_Alumnos.txt
